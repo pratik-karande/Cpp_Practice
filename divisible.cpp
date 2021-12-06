@@ -7,7 +7,7 @@ int main(){
         if(i%3==0){
             continue;
         }
-        cout<<i<<endl;
+        cout<<i<<" is divisible by 3"<<endl;
     }
     return 0;
 }
