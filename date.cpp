@@ -4,7 +4,7 @@ using namespace std;
 int main(){
     int savings;
     cin>>savings;
-    if(savings>5000){
+    if(savings>4000){
         cout<<"Neha\n";
         } else if(savings<2000){
             cout<<"Rashmi\n";
