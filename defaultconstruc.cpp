@@ -8,11 +8,14 @@ class Employee{
         cout<<"default constructor called"<<endl;
 
     }
+    void display(){
+        cout<<"Done"<<endl;
+    }
 
 };
 int main(){
     Employee e1;
-    Employee e2;
+    e1.display();
 
     return 0;
 }
