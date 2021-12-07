@@ -6,18 +6,18 @@ void DecimalToBinary(int n){
     int i=0;
     int counter=0;
     while(n>0){
-    binaryNumber[i]=n%2;
-    cout<<binaryNumber[i]<<endl;
-    if(binaryNumber[i]==1){
-        counter++;
-    }
+        binaryNumber[i]=n%2;
+        cout<<binaryNumber[i]<<endl;
+        if(binaryNumber[i]==1){
+            counter++;
+        }
 
     n=n/2;
     i++;
-
+    }
 }
-int main()
-{
+int main(){
+
     DecimalToBinary(15);
     return 0;
 }
