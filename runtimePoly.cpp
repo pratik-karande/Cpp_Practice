@@ -15,9 +15,9 @@ class Dog: public Animal
     }      
 };    
 int main() {    
-   Dog d = Dog();      
+   Dog d ;      
    d.eat(); 
-   Animal a=Animal();
+   Animal a;
    a.eat();   
    return 0;    
 } 
