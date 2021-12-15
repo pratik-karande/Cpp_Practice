@@ -55,7 +55,7 @@ int main(){
     for(i=0;i<MAX;i++)
         it[i].acceptData();
             sort(it, MAX);
-     file.open("item.txt", ios::trunc | ios::in | ios::out | ios::binary);
+     file.open("file3.txt", ios::trunc | ios::in | ios::out | ios::binary);
      file.seekg(0, ios::beg);
      file.clear();
      for(i=0; i<MAX; i++)
